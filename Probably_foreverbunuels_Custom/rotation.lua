@@ -119,25 +119,24 @@ ProbablyEngine.rotation.register_custom(261, "foreverbunuel's Custom", {
   { "Distract", "modifier.control", "ground" },
   { "Sap", "modifier.alt", "target" },
   
-  },
+    -- function ()
+    -- ProbablyEngine.toggle.create('as', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Alternate Silences.', '')
+  -- end
   
-  function ()
-    ProbablyEngine.toggle.create('as', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Alternate Silences.', '')
-  end
+   -- function ()
+    -- ProbablyEngine.toggle.create('rup', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Rupture', '')
+  -- end
   
-   function ()
-    ProbablyEngine.toggle.create('rup', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Rupture', '')
-  end
+   -- function ()
+    -- ProbablyEngine.toggle.create('buff', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of various buffs.', '')
+  -- end
   
-   function ()
-    ProbablyEngine.toggle.create('buff', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of various buffs.', '')
-  end
+   -- function ()
+    -- ProbablyEngine.toggle.create('hem', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Hemmorhage if we cannot do anything else.', '')
+  -- end
   
-   function ()
-    ProbablyEngine.toggle.create('hem', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Hemmorhage if we cannot do anything else.', '')
-  end
+   -- function ()
+    -- ProbablyEngine.toggle.create('sap', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Sap while stealthed.', '')
+  -- end
   
-   function ()
-    ProbablyEngine.toggle.create('sap', 'Interface\\Icons\\ability_druid_predatoryinstincts', 'Enables use of Sap while stealthed.', '')
-  end
-)
+  })
